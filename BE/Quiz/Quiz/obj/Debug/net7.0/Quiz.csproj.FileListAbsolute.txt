@@ -1,0 +1,7 @@
+C:\Users\rg171\source\repos\Quiz\BE\Quiz\Quiz\obj\Debug\net7.0\Quiz.csproj.AssemblyReference.cache
+C:\Users\rg171\source\repos\Quiz\BE\Quiz\Quiz\obj\Debug\net7.0\Quiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rg171\source\repos\Quiz\BE\Quiz\Quiz\obj\Debug\net7.0\Quiz.AssemblyInfoInputs.cache
+C:\Users\rg171\source\repos\Quiz\BE\Quiz\Quiz\obj\Debug\net7.0\Quiz.AssemblyInfo.cs
+C:\Users\rg171\source\repos\Quiz\BE\Quiz\Quiz\obj\Debug\net7.0\Quiz.csproj.CoreCompileInputs.cache
+C:\Users\rg171\source\repos\Quiz\BE\Quiz\Quiz\obj\Debug\net7.0\Quiz.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rg171\source\repos\Quiz\BE\Quiz\Quiz\obj\Debug\net7.0\Quiz.MvcApplicationPartsAssemblyInfo.cache
