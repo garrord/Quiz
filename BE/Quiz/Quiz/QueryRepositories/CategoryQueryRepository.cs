@@ -1,9 +1,11 @@
-﻿using Quiz.Contracts;
+﻿using Microsoft.EntityFrameworkCore;
+using Quiz.Contracts;
+using Quiz.Entities.DbContexts;
 using Quiz.Models;
 
 namespace Quiz.QueryRepositories
 {
-    public class CategoryQueryRepositories : ICategoryQueryRepository
+    public class CategoryQueryRepository : ICategoryQueryRepository
     {
         private readonly QuizContext _context;
 
