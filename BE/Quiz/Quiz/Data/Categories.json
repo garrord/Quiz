@@ -1,0 +1,18 @@
+[
+  {
+    "CategoryId": 1,
+    "CategoryName": "Pop Culture"
+  },
+  {
+    "CategoryId": 2,
+    "CategoryName": "Sports"
+  },
+  {
+    "CategoryId": 3,
+    "CategoryName": "Science and Nature"
+  },
+  {
+    "CategoryId": 4,
+    "CategoryName": "Food and Cuisine"
+  }
+]
