@@ -5,7 +5,7 @@ import { CategoryModel } from "../models/categoryModel";
 
 @Injectable()
 export class CategoryService{
-    private readonly categoryUrl = 'http://localhost:5056/api/category';
+    private readonly categoryUrl = 'http://localhost:5026/api/category';
 
     constructor(protected http: HttpClient){}
 

@@ -5,7 +5,7 @@ import { QuestionModel } from "../models/questionModel";
 
 @Injectable()
 export class QuestionsService{
-    private readonly questionUrl = 'http://localhost:5056/api/question';
+    private readonly questionUrl = 'http://localhost:5026/api/question';
 
     constructor(protected http: HttpClient){}
 
