@@ -1,0 +1,14 @@
+<div *ngIf="!isCompleted; else completed">
+    <questions-component
+        [question]="question"
+        [answers]="answers"
+        [isLastQuestion]="isLastQuestion"
+        (next)="nextQuestion($event)"
+    ></questions-component>
+</div>
+
+<ng-template #completed>
+    <completed-component
+        [percentage]="percentage"
+    ></completed-component>
+</ng-template>

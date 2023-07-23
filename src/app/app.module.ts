@@ -11,6 +11,9 @@ import { CategoriesContainer } from './containers/categories/categories.containe
 import { CategoryComponent } from './components/categories/category.component';
 import { MatButtonModule } from '@angular/material/button';
 import { QuestionsContainer } from './containers/questions/questions.container';
+import { QuestionsComponent } from './components/questions/questions.component';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { CompletedComponent } from './components/completed/completed.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +22,13 @@ import { QuestionsContainer } from './containers/questions/questions.container';
     PageNotFoundComponent,
     CategoryComponent,
     CategoriesContainer,
-    QuestionsContainer
+    QuestionsContainer,
+    QuestionsComponent,
+    CompletedComponent
   ],
   imports: [
     MatButtonModule,
+    MatButtonToggleModule,
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot([

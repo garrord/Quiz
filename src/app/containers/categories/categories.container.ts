@@ -12,7 +12,8 @@ export class CategoriesContainer implements OnInit{
 
     constructor(
         private categoryService: CategoryService,
-        private router: Router){}
+        private router: Router
+    ){}
 
     categories: CategoryModel[] = [];
 

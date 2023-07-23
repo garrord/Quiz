@@ -1,0 +1,26 @@
+<div id="background">
+    <div class="center">
+        {{ question }}
+    </div>
+
+    <mat-button-toggle-group class="center" *ngFor="let answer of answers">
+        <mat-button-toggle
+            (click)="selected(answer.isCorrect)"
+            mat-fab extended
+            color="secondary"
+        >
+        {{ answer.answerText }}
+        </mat-button-toggle>
+    </mat-button-toggle-group>
+
+    <div>
+        <button
+            [disabled]="!isSelected"
+            class="center" 
+            (click)="nextQuestion()"
+            mat-fab color="primary"
+        >
+        {{ !isLastQuestion ? "Next" : "Submit" }}
+        </button>
+    </div>
+</div>
